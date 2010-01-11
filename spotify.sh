@@ -31,7 +31,7 @@ if [ $1 ] ; then
 	  pubpatterns=$(wget -O - "`echo $1`" 2>/dev/null)
   fi
   else
-	pubpatterns=$(wget -O - http://github.com/pronoiaque/Spotify.sh/raw/master/spotify.pub 2>/dev/null)
+	pubpatterns=$(wget -O - http://github.com/ametaireau/Spotify.sh/raw/master/spotify.pub 2>/dev/null)
 
 fi
 
